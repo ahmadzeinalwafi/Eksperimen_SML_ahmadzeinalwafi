@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Course/dicoding/MachineLearning/membangun-sistem-machine-learning/SMSML-ahmadzeinalwafi/Eksperimen_SML_ahmadzeinalwafi/mlruns/0/5d1c697aece54cb28516a87a4266b949/artifacts
+end_time: 1746545465185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d1c697aece54cb28516a87a4266b949
+run_name: Preprocessing_Run
+run_uuid: 5d1c697aece54cb28516a87a4266b949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746545465083
+status: 3
+tags: []
+user_id: ahmad
