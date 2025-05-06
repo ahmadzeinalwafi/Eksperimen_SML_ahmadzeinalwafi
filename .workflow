@@ -27,4 +27,4 @@ jobs:
         pip install pandas numpy scikit-learn mlflow==2.19.0
 
     - name: Run Preprocessing
-      run: preprocessing/automate_ahmadzeinalwafi.py
+      run: python preprocessing/automate_ahmadzeinalwafi.py
