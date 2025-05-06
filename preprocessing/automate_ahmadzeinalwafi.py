@@ -33,6 +33,8 @@ if __name__ == "__main__":
     input_file = "preprocessing/dataset.csv"
     output_file = "preprocessing/outputs/dataset_clean.csv"
 
+    mlflow.set_tracking_uri("file:./mlruns") 
+
     with mlflow.start_run(run_name="Preprocessing_Run"):
         df_clean = preprocess_dataset(input_file, output_file)
 

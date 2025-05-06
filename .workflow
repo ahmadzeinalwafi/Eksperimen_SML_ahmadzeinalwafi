@@ -20,7 +20,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-
+    - name: Clean MLflow logs
+      run: rm -rf mlruns
+      
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
